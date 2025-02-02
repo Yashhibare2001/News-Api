@@ -22,7 +22,7 @@ function NewsAPI() {
 
   return (
     <div className="Body-container">
-      <h1 className="Heading">Breaking News</h1>
+      <h1 className="Heading">Todays News</h1>
 
       {error && <p className="error-message">{error}</p>}
 
